@@ -75,18 +75,50 @@
 			children = (
 				2073AA072C2C1AA100DA865F /* AppDelegate.swift */,
 				2073AA092C2C1AA100DA865F /* SceneDelegate.swift */,
-				2073AA0B2C2C1AA100DA865F /* DashboardViewController.swift */,
-				2073AA0D2C2C1AA100DA865F /* Main.storyboard */,
+				20DF3C5F2C380971008CC83E /* ViewController */,
+				20DF3C602C380994008CC83E /* Models */,
+				20DF3C612C3809A7008CC83E /* NetworkHandler */,
+				20DF3C622C3809E5008CC83E /* cells */,
 				2073AA132C2C1AA300DA865F /* Assets.xcassets */,
 				2073AA152C2C1AA300DA865F /* LaunchScreen.storyboard */,
 				2073AA182C2C1AA300DA865F /* Info.plist */,
 				2073AA102C2C1AA100DA865F /* AuthorShelf.xcdatamodeld */,
-				2073AA1E2C2C1DF100DA865F /* AuthorTableViewCell.swift */,
-				2073AA1F2C2C1DF100DA865F /* AuthorTableViewCell.xib */,
-				2073AA222C2C2E7800DA865F /* NetworkHandler.swift */,
-				20DF3C562C37F605008CC83E /* PhotoModel.swift */,
 			);
 			path = AuthorShelf;
+			sourceTree = "<group>";
+		};
+		20DF3C5F2C380971008CC83E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2073AA0B2C2C1AA100DA865F /* DashboardViewController.swift */,
+				2073AA0D2C2C1AA100DA865F /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20DF3C602C380994008CC83E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20DF3C562C37F605008CC83E /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20DF3C612C3809A7008CC83E /* NetworkHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2073AA222C2C2E7800DA865F /* NetworkHandler.swift */,
+			);
+			path = NetworkHandler;
+			sourceTree = "<group>";
+		};
+		20DF3C622C3809E5008CC83E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				2073AA1E2C2C1DF100DA865F /* AuthorTableViewCell.swift */,
+				2073AA1F2C2C1DF100DA865F /* AuthorTableViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		263294798C0124A6E094E2B4 /* Pods */ = {
