@@ -94,7 +94,7 @@ extension DashboardViewController: UITableViewDataSource, UITableViewDelegate {
         alert.addAction(actionOK)
         present(alert, animated: true)
         
-//    }
+    }
     
     @objc func addToFav(_ sender: UIButton) {
         let tag = sender.tag
