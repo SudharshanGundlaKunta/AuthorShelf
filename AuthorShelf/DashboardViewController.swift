@@ -72,28 +72,28 @@ extension DashboardViewController: UITableViewDataSource, UITableViewDelegate {
         return UITableViewCell()
     }
     
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        tableView.deselectRow(at: indexPath, animated: true)
-//        if self.photos?[indexPath.row].isFav == true {
-//            displayDialog()
-//        }else {
-//            displayError()
-//        }
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if self.photos?[indexPath.row].isFav == true {
+            displayDialog()
+        }else {
+            displayError()
+        }
+    }
     
-//    func displayDialog() {
-//        let alert = UIAlertController(title: "Successful", message: "Description", preferredStyle: .alert)
-//        let actionOK = UIAlertAction(title: "OK", style: .default)
-//        alert.addAction(actionOK)
-//        present(alert, animated: true)
-//    }
-//    
-//    func displayError() {
-//        let alert = UIAlertController(title: "Alert", message: "Please check the box", preferredStyle: .alert)
-//        let actionOK = UIAlertAction(title: "Cancel", style: .destructive)
-//        alert.addAction(actionOK)
-//        present(alert, animated: true)
-//        
+    func displayDialog() {
+        let alert = UIAlertController(title: "Successful", message: "Description", preferredStyle: .alert)
+        let actionOK = UIAlertAction(title: "OK", style: .default)
+        alert.addAction(actionOK)
+        present(alert, animated: true)
+    }
+    
+    func displayError() {
+        let alert = UIAlertController(title: "Alert", message: "Please check the box", preferredStyle: .alert)
+        let actionOK = UIAlertAction(title: "Cancel", style: .destructive)
+        alert.addAction(actionOK)
+        present(alert, animated: true)
+        
 //    }
     
     @objc func addToFav(_ sender: UIButton) {
